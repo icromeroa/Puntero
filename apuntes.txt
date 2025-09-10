@@ -1,0 +1,35 @@
+Un entero int tiene entre 2 a 4 bytes ej. Trayectorias
+Un short tiene 2 bytes ej. Precio
+Un long tiene 4 a 8 bytes ej. Número pi
+
+Para generar ingresos aprender .Net (framework de C++)
+
+Lenguajes compilados
+C# (framework Unity) ->  Aprender funciones, ciclos
+Go lenguaje de programación de Google, tiene certificado gratuito
+Rust
+
+Un carácter en C, tiene 1 bytes, es decir, 8 bytes
+
+Un ejemplo es que en Python cuando se guarda una variable, la guardará como una copia
+
+si es nombre =  "Andrés" tiene 400 bits y se divide en 8 = 50 bytes
+print(nombre)
+
+
+Por el contrario, en el lenguaje C, simplemente guardará 6 bytes
+Lo cual hace que la diferencia del uso de memoria entre ambos sea mucha.
+
+Python y Java requiere de afinamiento para manejar mejor la memoria
+
+Java tiene derroche de memoria, dentro, hay una aplicación que se encarga de recoger todo el derroche de memoria
+
+Cómo llamar una variable en C:
+char nombre[6] = "andres";
+como imprimirla
+printf("andres%c", nombre)]
+
+Imprimir es como tomar una foto
+Es mejor utilizar loggers para depurar el codigo y evitar que la app se relentice
+
+El puntero funciona para mejorar el manejo de la memoria, para solo usar una variable a la vez.
